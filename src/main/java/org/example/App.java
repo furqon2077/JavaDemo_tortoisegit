@@ -47,6 +47,7 @@ public class App
 
         System.out.println(result);*/
 
+        //Lesson 1-17 -- While loop
         int i = 1;
 
         while (i <= 10) {
