@@ -36,7 +36,7 @@ public class App
                System.out.println("Valid input should be between 1 and 7. Please try again!");
        }*/
 
-        String day = "Monday";
+/*        String day = "Monday";
         String result = "";
 
         result = switch (day){
@@ -45,6 +45,22 @@ public class App
             default: yield "6am";
         };
 
-        System.out.println(result);
+        System.out.println(result);*/
+
+        int i = 1;
+
+        while (i <= 10) {
+
+            if (i == 1) {
+                System.out.println("help me " + i + " time");
+            }
+
+            i++;
+            System.out.println("help me " + i + " times");
+
+            if (i == 10) {
+                i = i + 10;
+            }
+        }
     }
 }
