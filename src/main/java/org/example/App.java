@@ -8,9 +8,10 @@ public class App
 {
     public static void main( String[] args )
     {
-//       int n = 8;
+/*
+      int n = 8;
 
-/*       switch (n){
+      switch (n){
            case 1:
                System.out.println("Monday");
                break;
@@ -34,18 +35,25 @@ public class App
                break;
            default:
                System.out.println("Valid input should be between 1 and 7. Please try again!");
-       }*/
 
-/*        String day = "Monday";
+         }
+*/
+
+/*
+        String day = "Monday";
         String result = "";
 
-        result = switch (day){
-            case "Monday": yield "7am";
-            case "Sunday": yield "9am";
-            default: yield "6am";
+        result = switch (day) {
+            case "Monday":
+                yield "7am";
+            case "Sunday":
+                yield "9am";
+            default:
+                yield "6am";
         };
 
-        System.out.println(result);*/
+        System.out.println(result);
+*/
 
         //Lesson 1-17 -- While loop
         int i = 1;
